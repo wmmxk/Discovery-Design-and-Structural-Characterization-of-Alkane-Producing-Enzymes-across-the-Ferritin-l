@@ -1,0 +1,102 @@
+# Constraint block 1
+CST::BEGIN
+  TEMPLATE::   ATOM_MAP: 1 atom_name: FE2 V1 V2
+  TEMPLATE::   ATOM_MAP: 1 residue3: X00
+
+  TEMPLATE::   ATOM_MAP: 2 atom_type: OOC
+  TEMPLATE::   ATOM_MAP: 2 residue1: ED
+
+   CONSTRAINT:: distanceAB:     2.1   0.3  500  0    
+   CONSTRAINT::    angle_B:   130.0  10.0  500  360. 1
+   CONSTRAINT::  torsion_B:   180.0  10.0  500  360. 1
+CST::END
+
+# Constraint block 2
+CST::BEGIN
+  TEMPLATE::   ATOM_MAP: 1 atom_name: FE2 V1 V2
+  TEMPLATE::   ATOM_MAP: 1 residue3:  X00
+
+  TEMPLATE::   ATOM_MAP: 2 atom_name: ND1 CG CD2 
+  TEMPLATE::   ATOM_MAP: 2 residue1:  H 
+
+   CONSTRAINT:: distanceAB:     2.2   0.2  500  0    
+   CONSTRAINT::    angle_B:   120.0  20.0  500  360. 1   
+   CONSTRAINT::  torsion_B:   180.0  20.0  500  360. 1   
+CST::END
+
+# Constraint block 3
+CST::BEGIN
+  TEMPLATE::   ATOM_MAP: 1 atom_name: FE2 V1 V2
+  TEMPLATE::   ATOM_MAP: 1 residue3: X00
+
+  TEMPLATE::   ATOM_MAP: 2 atom_name: OE1 CD CG
+  TEMPLATE::   ATOM_MAP: 2 residue1:  E
+
+   CONSTRAINT:: distanceAB:     2.2   0.3  500  0    1 
+   CONSTRAINT::    angle_B:   120.0  20.0  500  360. 1
+#   CONSTRAINT::  torsion_AB:   180.0  20.0  50  360. 1
+   CONSTRAINT::  torsion_B:   180.0  20.0  500  360. 1
+
+CST::END
+
+
+# Constraint block 3
+CST::BEGIN
+  TEMPLATE::   ATOM_MAP: 1 atom_name: FE1 V1 V2
+  TEMPLATE::   ATOM_MAP: 1 residue3: X00
+
+  TEMPLATE::   ATOM_MAP: 2 atom_name: OE2 CD CG
+  TEMPLATE::   ATOM_MAP: 2 residue1:  E
+
+   CONSTRAINT:: distanceAB:     2.2   0.3  500  0    1 
+   CONSTRAINT::    angle_B:   120.0  20.0  500  360. 1
+   CONSTRAINT::  torsion_B:   180.0  20.0  500  360. 1
+
+CST::END
+
+# Constraint block 4
+CST::BEGIN
+  TEMPLATE::   ATOM_MAP: 1 atom_name: FE1 V1 V2
+  TEMPLATE::   ATOM_MAP: 1 residue3: X00
+
+  TEMPLATE::   ATOM_MAP: 2 atom_name: ND1 CG CD2 
+  TEMPLATE::   ATOM_MAP: 2 residue1:  H
+
+   CONSTRAINT:: distanceAB:     2.2   0.2  500  0    
+   CONSTRAINT::    angle_B:   140.0  10.0  500  360. 1
+      CONSTRAINT::    torsion_AB:   -135  10.0  500  360. 1
+#   CONSTRAINT::    torsion_B:   0.0  10.0  500  360. 1
+CST::END
+
+# Constraint block 5
+CST::BEGIN
+  TEMPLATE::   ATOM_MAP: 1 atom_name: FE1 V1 V2
+  TEMPLATE::   ATOM_MAP: 1 residue3: X00
+
+  TEMPLATE::   ATOM_MAP: 2 atom_type: OOC
+  TEMPLATE::   ATOM_MAP: 2 residue1:  E
+
+  CONSTRAINT:: distanceAB:     2.2   0.1  500  0
+#  CONSTRAINT::    angle_B:   90.0  10.0  500  360. 1
+#   CONSTRAINT::  torsion_AB:   60.0  30.0  50  360. 1
+  CONSTRAINT::  torsion_B:   180.0  10.0  500  360. 2
+CST::END
+
+
+# Constraint block 6
+CST::BEGIN
+  TEMPLATE::   ATOM_MAP: 1 atom_name: FE1 FE2 V1
+  TEMPLATE::   ATOM_MAP: 1 residue3: X00
+
+  TEMPLATE::   ATOM_MAP: 2 atom_name: O3 O1 C2
+  TEMPLATE::   ATOM_MAP: 2 residue3:  Y00
+
+  CONSTRAINT:: distanceAB:     2.0   0.05  500  1
+  CONSTRAINT::    angle_A:   33.9  1.0  500  360. 1
+  CONSTRAINT::    angle_B:   93.3  1.0  500  360. 1
+  CONSTRAINT::  torsion_AB:   -158.8  1.0  500  360. 1
+  CONSTRAINT::  torsion_A:   -30.7  1.0  500  360. 2
+  CONSTRAINT::  torsion_B:   67.6  1.0  500  360. 2 
+CST::END
+
+

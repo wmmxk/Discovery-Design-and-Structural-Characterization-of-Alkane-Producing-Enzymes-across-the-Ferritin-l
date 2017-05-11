@@ -1,0 +1,1 @@
+/Rosetta/main/source/bin/rosetta_scripts.default.linuxgccrelease @options -overwrite -parser:protocol design_off.xml -s WT_1.pdb -nstruct 200 -output_virtual T
