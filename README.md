@@ -1,2 +1,2 @@
-# Discovery-of-Widespread-Aldehyde-Deformylating-Oxygenase-activity-within-the-Ferritin-Superfamily
-Supplementary files for the paper "Discovery of Widespread Aldehyde Deformylating Oxygenase activity within the Ferritin Superfamily"
+# Genomic Mining of Aldehyde Deformylating Oxygenases DefinesStructural Features that Enable Engineering of Function
+Supplementary files for the paper "Genomic Mining of Aldehyde Deformylating Oxygenases Defines Structural Features that Enable Engineering of Function"
